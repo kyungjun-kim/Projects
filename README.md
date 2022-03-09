@@ -11,10 +11,10 @@ https://dacon.io/competitions/official/235687/overview/description
 - 목적 :
   데이터를 통해 사용자가 불편을 느끼는 원인 분석
 
-- Summary
-(1). Data Collection
-- 학습(Train) 데이터(시스템에 발생한 에러 로그 + 시스템 퀄리티 로그 + 사용자 불만&불만이 접수된 시간) + 테스트(Test) 데이터(에러 로그 + 퀄리티 로그 + 사용자 불만 확률)
+- Summary :
 - 
+(1). Data Collection
+- 학습(Train) 데이터(시스템에 발생한 에러 로그 + 시스템 퀄리티 로그 + 사용자 불만&불만이 접수된 시간) + 테스트(Test) 데이터(에러 로그 + 퀄리티 로그 + 사용자 불만 확률) 
 (2). Data Preprocessing
 - EDA (에러 로그 데이터 + 시스템 퀄리티 데이터)
 - Reduction (중복 데이터 제거, missing value 포함한 결측치 제거)
