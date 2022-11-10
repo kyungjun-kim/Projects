@@ -6,7 +6,8 @@ object LearnScala {
         println("Hello, world!")
     }
 }
-/* object를 통해 객체 생성, def를 통해 함수 생성
+/* 
+object를 통해 객체 생성, def를 통해 함수 생성
 자바와 비슷하면서도 다르다
 */
 
@@ -18,7 +19,8 @@ object LearnScala {
     }
 }
 
-/* 스칼라에선 원시 타입 (ex 1(Int 리터럴))은 객체로 취급
+/* 
+스칼라에선 원시 타입 (ex 1(Int 리터럴))은 객체로 취급
 그래서 "+", "-" 와 같은 연산자는 1이라는 원시 타입 객체의 메소드
 ex) 1+2 는 1이라는 객체에 "+"라는 메소드를 호출해 2라는 인자가 전달되는 것
 */
@@ -32,16 +34,75 @@ object LearnScala {
         println( x )
         
         val y = 1 + 2
-        y = 3 * 4 // 이 줄은 상수에 값을 대입해서 에러가 나기 때문에 지워야 합니다.
+        y = 3 * 4 // 이 줄은 상수에 값을 대입해서 에러가 나기 때문에 지워야 함
         println( y )
         
-        // 한 번에 여러개의 변수를 선언하면서 값을 대입할 수도 있습니다.
+        // 한 번에 여러개의 변수를 선언하면서 값을 대입하는 것도 가능
         var a, b, c = 5
         println( a )
         println( b )
         println( c )
     }
 }
-/* 변수는 var로, 상수는 val로 선언 
+/* 
+변수는 var로, 상수는 val로 선언 
 한번에 여러 개의 변수 선언을 하고 값을 대입하는 것도 가능
+*/
+
+
+// 변수 출력
+object LearnScala {
+    def main(args: Array[String]): Unit = {
+        var x = 10
+        var y = 1
+        
+        // ① println
+        println("① " + x + " is bigger than " + y)  
+        
+        // ② 문자열 앞에 s를 쓰면 $를 쓰고 변수이름을 바로 출력 가능
+        println(s"② $x is bigger than $y")
+        
+        // ③ 수식을 입력하고 싶으면 ${ }사이에 식을 입력
+        println(s"③ $x + $y = ${ x + y }")
+        
+        // ④ printf도 사용 가능
+        //java.lang.*은 자동으로 import됨 (java.lang.Math도 포함)
+        printf("④ Pi is %f",Math.PI)
+    }
+}
+
+/*
+println, printf 둘다 사용 가능 , 출력 문법은 간결해서 편리해보임
+*/
+
+
+// Range & List
+object LearnScala {
+    def main(args: Array[String]): Unit = {
+        // ① to를 이용하면 1부터 10을 포함하는 Range를 생성
+        val range1 = 1 to 10
+        println(s"① 1 to 10 →\n\t $range1")
+        
+        // ② until을 이용하면 마지막 숫자를 포함하지 않는 Range를 생성
+        val range2 = 1 until 10
+        println(s"② 1 until 10 →\n\t $range2")
+        
+        // ③ by를 이용하면 숫자를 건너 띄는 Range를 생성
+        val range3 = 1 until 10 by 3
+        println(s"③ 1 until 10 by 3 →\n\t $range3")
+        
+        // ④ toList를 통해 List로 변환
+        println(s"④ range1.toList →\n\t ${range1.toList}")
+        
+        // ⑤ filter: 조건에 맞는것만 모으기(4 이상인것만 모으기)
+        val moreThan4 = range1.filter(_ > 4)  
+        println(s"⑤ range1.filter(_ > 4) →\n\t $moreThan4")
+        
+        // ⑥ map - 각 아이템의 값을 변경
+        val doubleIt = range1.map(_ * 2)  
+        println(s"⑥ range1.map(_ * 2) →\n\t $doubleIt")
+    }
+}
+/*
+to, until, by 라는 편리한 기능을 제공해주고, range의 filter와 map기능도 유용하게 쓸 수 있을것 같음
 */
