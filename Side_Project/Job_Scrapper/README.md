@@ -1,4 +1,5 @@
 - Job Scrapper 웹사이트 구현
+- 작성링크 : replit에서 구현함 -> https://replit.com/@KYUNG-JUNJUN1/JobScrapper#
 - 사용 스택 : Python, Flask, HTML, CSS
 - 기간 : 2023/6/21~26
 - 사용법 : main.py 실행 후 웹사이트에 원하는 프로그래밍 언어 입력후 결과 확인 및 다운로드 (좌측 상단 Export to file 버튼 클릭)
