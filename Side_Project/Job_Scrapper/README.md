@@ -1,0 +1,3 @@
+Job Scrapper 웹사이트 구현
+사용 스택 : Python, Flask, HTML, CSS
+기간 : 2023/6/21~26
