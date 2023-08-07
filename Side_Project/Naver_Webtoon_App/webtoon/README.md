@@ -1,6 +1,6 @@
-# webtoon
+# 네이버 웹툰 앱 만들기
 
-A new Flutter project.
+## 사용 스택 : Dart, Flutter
 
 ## Getting Started
 
