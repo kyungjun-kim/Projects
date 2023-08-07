@@ -1,6 +1,12 @@
 # 네이버 웹툰 앱 만들기
 
-## 사용 스택 : Dart, Flutter
+- 사용 스택 : Dart, Flutter
+- 기간 : 2023/8/5~8/7
+- 기본 화면 :
+
+- 해당 내용 :
+- 
+
 
 ## Getting Started
 
