@@ -2,12 +2,17 @@
 
 - 사용 스택 : Dart, Flutter
 - 기간 : 2023/8/5~8/7
-- 기본 화면 :
-  - 홈 화면
-  - 세부 화면
-  
-- 작동 화면 :
+
+## 기능 :
+- 기본 화면에서 오늘의 웹툰을 확인할 수 있으며,
+- 특정 웹툰을 클릭하게 되면 해당 웹툰의 썸네일, 줄거리, 장르 등 기본설명과 함께 최신 에피소드들을 확인할 수 있는 화면으로 전환하게 된다.
+- 에피소드 목록에 있는 에피소드를 클릭하게 되면 네이버 웹툰페이지로 전환되어 웹툰을 확인할 수 있다.
 - 
+## 홈 화면 & 세부 화면 : 
+<img src=https://github.com/kyungjun-kim/Projects/assets/58836568/f2429668-d758-48d3-9315-a82a6beae677, width="360" height="772">
+<img src=https://github.com/kyungjun-kim/Projects/assets/58836568/3d683386-6a99-496e-b682-225b229cff28, width="360" height="772">
+<img src=https://github.com/kyungjun-kim/Projects/assets/58836568/fa126895-18b8-4260-a186-d1d1470e2905, width="250" height="700">
+  
 
 - 해당 내용 출처 : https://nomadcoders.co/dart-for-beginners/lobby , https://nomadcoders.co/flutter-for-beginners/lobby
 - 강의 수강증
