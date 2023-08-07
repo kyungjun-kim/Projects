@@ -12,7 +12,7 @@
 ## 홈 화면 & 세부 화면 : 
 <img src=https://github.com/kyungjun-kim/Projects/assets/58836568/f2429668-d758-48d3-9315-a82a6beae677, width="360" height="772">
 <img src=https://github.com/kyungjun-kim/Projects/assets/58836568/3d683386-6a99-496e-b682-225b229cff28, width="360" height="772">
-<img src=https://github.com/kyungjun-kim/Projects/assets/58836568/fa126895-18b8-4260-a186-d1d1470e2905, width="250" height="700">
+<img src=https://github.com/kyungjun-kim/Projects/assets/58836568/fa126895-18b8-4260-a186-d1d1470e2905, width="360" height="772">
 
 ## 작동 영상 :
 
