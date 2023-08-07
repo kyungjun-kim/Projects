@@ -15,6 +15,7 @@
 <img src=https://github.com/kyungjun-kim/Projects/assets/58836568/fa126895-18b8-4260-a186-d1d1470e2905, width="360" height="772">
 
 ## 작동 영상 :
+<img src= https://github.com/kyungjun-kim/Projects/assets/58836568/65788122-e71d-440d-8533-82411825aa78, width="360" height="772">
 
 
 
