@@ -4,6 +4,7 @@
 - 에뮬레이터 : 갤럭시 S23 울트라 (안드로이드)
 - 기간 : 2023/8/5~8/7
 
+
 ## 기능 :
 - 기본 화면에서 오늘의 웹툰을 확인할 수 있으며,
 - 특정 웹툰을 클릭하게 되면 해당 웹툰의 썸네일, 줄거리, 장르 등 기본설명과 함께 최신 에피소드들을 확인할 수 있는 화면으로 전환하게 된다.
@@ -25,7 +26,8 @@
 - https://nomadcoders.co/dart-for-beginners/lobby -
 - https://nomadcoders.co/flutter-for-beginners/lobby
 
-- 
+
+  
 ## 강의 수강증
 <img src=https://github.com/kyungjun-kim/Projects/assets/58836568/3d103431-6af8-4db6-9e1c-ba067e8f9a94 width="500" height="300"/>
 <img src=https://github.com/kyungjun-kim/Projects/assets/58836568/8650085d-b020-4fb9-af46-7114ef6671d6 width="500" height="300"/>
