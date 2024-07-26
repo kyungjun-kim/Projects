@@ -1,0 +1,9 @@
+FROM jupyter/pyspark-notebook
+
+# 필요한 라이브러리 설치
+RUN pip install imdbpy
+RUN pip install beautifulsoup4
+RUN pip install flask
+
+# Expose Flask port
+EXPOSE 5000

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NBA Rookie Prediction Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>NBA Rookie of the Year Prediction Results for {{ season }}</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Player Name</th>
+                <th>Points</th>
+                <th>Assists</th>
+                <th>Rebounds</th>
+                <th>Probability (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for prediction in predictions.itertuples() %}
+            <tr>
+                <td>{{ prediction.PLAYER_NAME }}</td>
+                <td>{{ prediction.POINTS }}</td>
+                <td>{{ prediction.ASSISTS }}</td>
+                <td>{{ prediction.REBOUNDS }}</td>
+                <td>{{ prediction.PROBABILITY }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

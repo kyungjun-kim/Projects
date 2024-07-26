@@ -1,0 +1,7 @@
+Flask
+pandas
+scikit-learn
+nba_api
+pyspark
+matplotlib
+s

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Ratings</title>
+</head>
+<body>
+    <h1>Movie Ratings</h1>
+    <ul>
+        {% for movie in movies %}
+        <li>{{ movie['Title'] }}: {{ movie['Rating'] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
